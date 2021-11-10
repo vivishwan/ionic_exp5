@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "exp5App",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

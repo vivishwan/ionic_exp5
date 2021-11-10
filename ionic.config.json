@@ -1,0 +1,7 @@
+{
+  "name": "exp5App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
