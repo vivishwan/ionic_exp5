@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="mainTitle">WATCH AND LEARN</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides [options]="options">
+    <ion-slide>
+      <ion-grid>
+        <ion-col size="12">
+          <img src="assets/cartoon1.jpg" alt="cartoon" />
+        </ion-col>
+        <ion-col size="12">
+          <p [routerLink]="['/cartoon1']">
+            <ion-icon name="play-circle-outline"></ion-icon>Watch now
+          </p>
+        </ion-col>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-col size="12">
+          <img src="assets/cartoon2.jpg" alt="cartoon" />
+        </ion-col>
+        <ion-col size="12">
+          <p [routerLink]="['/cartoon2']">
+            <ion-icon name="play-circle-outline"></ion-icon>Watch now
+          </p>
+        </ion-col>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-col size="12">
+          <img src="assets/cartoon3.jpg" alt="cartoon" />
+        </ion-col>
+        <ion-col size="12">
+          <p [routerLink]="['/cartoon3']">
+            <ion-icon name="play-circle-outline"></ion-icon>Watch now
+          </p>
+        </ion-col>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-col size="12">
+          <img src="assets/cartoon4.jpg" alt="cartoon" />
+        </ion-col>
+        <ion-col size="12">
+          <p [routerLink]="['/cartoon4']">
+            <ion-icon name="play-circle-outline"></ion-icon>Watch now
+          </p>
+        </ion-col>
+      </ion-grid>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

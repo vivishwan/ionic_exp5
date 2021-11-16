@@ -1,20 +1,77 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title size="medium">Kids App</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="main" [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="medium">Kids App</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-card style="padding: 4px" [routerLink]="['/alpha']">
+    <img
+      src="../../assets/img1.gif"
+      style="float: left"
+      width="76px"
+      height="72px"
+    />
+    <ion-card-header>
+      <ion-card-title>English Alphabets</ion-card-title>
+      <ion-card-subtitle>Learn the letters, improve language</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-card style="padding: 4px" [routerLink]="['/cartoon']">
+    <img
+      class="img2"
+      src="../../assets/img2.gif"
+      style="float: left"
+      width="82px"
+      height="76px"
+    />
+    <ion-card-header>
+      <ion-card-title>Kids Cartoons</ion-card-title>
+      <ion-card-subtitle>Watch Videos of Cartoons and learn</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <ion-card style="padding: 4px" [routerLink]="['/shapes']">
+    <img
+      class="img2"
+      src="../../assets/img3.gif"
+      style="float: left"
+      width="82px"
+      height="82px"
+    />
+    <ion-card-header>
+      <ion-card-title>Shapes and Figures</ion-card-title>
+      <ion-card-subtitle>Learn about geometric shapes</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <ion-card style="padding: 2px" [routerLink]="['/numbers']">
+    <img
+      src="../../assets/img4.gif"
+      style="float: left"
+      width="88px"
+      height="76px"
+    />
+    <ion-card-header>
+      <ion-card-title>Numbers</ion-card-title>
+      <ion-card-subtitle>Learn about maths</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <ion-card style="padding: 4px" [routerLink]="['/quiz']">
+    <img
+      class="img2"
+      src="../../assets/img5.gif"
+      style="float: left"
+      width="88px"
+      height="74px"
+    />
+    <ion-card-header>
+      <ion-card-title>Take a Quiz</ion-card-title>
+      <!-- <ion-card-subtitle>Learn about geometric shapes</ion-card-subtitle> -->
+    </ion-card-header>
+  </ion-card>
 </ion-content>
